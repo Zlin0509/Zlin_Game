@@ -1,8 +1,10 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    wchar_t a;
-    std::cout << "Hello, World!" << std::endl;
+    string a;
+    getline(cin, a);
+    cout << a << endl;
     return 0;
 }
